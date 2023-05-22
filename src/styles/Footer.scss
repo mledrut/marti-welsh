@@ -1,0 +1,31 @@
+@use 'variables' as v;
+
+footer{
+    height: 40px;
+    background-color: v.$color-variant;
+    margin-top: 20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            color: white;
+            font-size: 14px;
+        }
+
+        a{
+            display: flex;
+            align-items: center;
+            svg{
+                width: 22px;
+                height: 22px;
+                fill: white;
+            }
+        }
+    }
+}

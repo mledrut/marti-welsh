@@ -1,0 +1,37 @@
+@use 'variables' as v;
+
+body{
+    font-family: 'Anuphan', sans-serif;
+    margin: 0;
+    color: v.$text-black;
+
+    #app{
+        min-height: calc(100vh - 50px);
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, ul{
+        margin: 0;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a{
+        color: unset;
+        text-decoration: unset;
+    }
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (max-width: calc(1024px + 40px)) {
+    .container{
+        padding: 0 20px;
+    }
+  }

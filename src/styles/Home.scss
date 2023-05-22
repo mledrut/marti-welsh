@@ -1,0 +1,66 @@
+@use 'variables' as v;
+
+.container{
+
+    .last{
+
+        h3{
+            padding: 20px 0;
+            // color: v.$text-fade;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                background-color: v.$color-fade;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                padding: 20px;
+                border-radius: 10px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+                .image{
+                    width: 100px;
+                    aspect-ratio: 1/1;
+                    background-color: v.$color-variant;
+                    border-radius: 10px;
+                    overflow: hidden;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .textes{
+                    h4{
+                        font-size: 18px;
+                    }
+
+                    p{
+                        line-height: 22px;
+                    }
+                    .ville{
+                        color: v.$text-fade;
+                        font-size: 14px;
+                    }
+                    .prix{
+                        font-weight: 800;
+                        color: v.$text-variant;
+                        font-size: 16px;
+                    }
+                    .note{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
