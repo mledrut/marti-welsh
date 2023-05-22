@@ -1,9 +1,29 @@
-# Vue 3 + Vite
+# Marti' Welsh
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Bienvenue sur le dépôt GitHub de Marti' Welsh ! 
 
-## Recommended IDE Setup
+Marti' Welsh est un petit site web créé avec Vue 3, qui a pour objectif de partager mes Welshs préférées.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-# marti-welsh
-# marti-welsh
+## Installation
+
+1. Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
+
+   ```shell
+   git clone https://github.com/mledrut/marti-welsh.git
+
+2. Accédez au répertoire du projet :
+
+   ```shell
+   cd marti-welsh
+
+3. Installez les dépendances en exécutant la commande :
+
+   ```shell
+   npm install
+
+## Exécution
+
+1. Pour exécuter le projet Marti' Welsh localement, utilisez la commande suivante :
+
+   ```shell
+   npm run dev
