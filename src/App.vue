@@ -1,15 +1,11 @@
 <script>
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
-  import Home from './pages/Home.vue'
-  import Details from './pages/Details.vue'
   import './styles/Main.scss'
 
   export default {
     components: {
       Header,
-      Home,
-      Details,
       Footer,
     }
   };
