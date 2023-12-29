@@ -91,5 +91,28 @@
             "gras": 5,
             "frites": 2
         }
+    },
+    {
+        "name": "Saveurs d'Hier et d'Aujourd'hui",
+        "route": "saveurs-d-hier",
+        "adresse": "329 Rue du Maréchal Leclerc, 59262 Sainghin-en-Mélantois",
+        "ville" : "Sainghin-en-Mélantois",
+        "telephone": "0320413877",
+        "web": "https://www.restosaveurs.fr/",
+        "date": "27/12/2023",
+        "photo": "saveurs-d-hier.jpeg",
+        "prixBase": null,
+        "prixComplet": 19.00,
+        "description": "welsh de magret de canard fumé au mont des cats.",
+        "biere": null,
+        "conseil": "Tripel Karmeliet",
+        "notes": {
+            "general": 8,
+            "quantite": 6,
+            "gout": 9,
+            "moutarde": 0,
+            "gras": 6,
+            "frites": 7
+        }
     }
 ]
